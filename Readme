@@ -1,0 +1,12 @@
++++++++++++++++++++++Tema-1-AA++++++++++++++++++++++
+Task1:
+		Primul pas se verifica daca nu s-a ajuns in starea finala. Cat timp nu s-a ajuns, se executa tranzitia respectiva, daca se gaseste, daca nu inseamna ca s-a blocat. De fiecare data cand gaseste un match se scriu caracterele pe amble benzi, se muta cursorul, se modifica starea curenta si se reia cautarea de la inceputul vectorului de tranzitii,
+		prin intermediul acelui break. 
+		Codul l-am lasat necomentat, pentru ca in opinia mea scopul acestei materii, nu e cum definesti o structura sau cum faci o citire, ci sa intelegi cum functioneaza o masina Turing. Numele functiilor si a variabilelor este ales, in asa natura, incat sa nu mai fie nevoie de alte precizari inutile.
+
+Task2:
+		Pentru exemplificare am facut o diagrama de stari si tranzitii. Pentru a nu incarca diagrama cu prea multe tranzitii, am redus la doar doua caractere. Fata de schema se mai adauga alte 6 stari, 3 de fiecare si independente de celelate. Starile sunt similare cu S1000 si ,repectiv, S1010. Am luat aceasta decizie pentru a usura munca daca avem nevoie de mai multe caractere.
+		Facand abstractie de desen, ideea principala este sa stergem doua cate, doua caractere diferite si sa reluam de la capatul benzii procesul, pana ne raman caractere identice, de unde lasam doar unul. Se sterge un caracter de la inceput, iar pe pozitia caracterului diferit se pune x. Cu acest x se face swap cu vecinul din dreapta, pana se da de diez, cand se sterge(vezi buclele din S0101). N-am respectat notatiile starilor din desen, in fisierul de la task2 pentru ca am considerat ca nu au nicio relevanta, avand in vedere ca nu sunt human-readable.
+
+Realizat de catre: Gengiu Robert-Constantin
+Grupa: 322CB 
